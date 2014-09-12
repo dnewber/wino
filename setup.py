@@ -6,7 +6,7 @@ setup(
     author='Scott M. Cruwys',
     author_email='scruwys@gmail.com',
     packages=['wino', 'wino.tests'],
-    url='http://pypi.python.org/pypi/wino/',
+    url='http://github.com/scruwys/wino/',
     license='LICENSE.txt',
     description='Wine.com API wrapper',
 )

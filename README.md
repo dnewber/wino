@@ -7,8 +7,11 @@ A simple Python wrapper for the [Wine.com API](https://api.wine.com/).
 Installation
 ------------
 
-Coming soon...
+```python
 
+pip install wino
+
+```
 
 Usage
 -----
