@@ -10,7 +10,6 @@ Installation
 ```python
 
 pip install wino
-
 ```
 
 Usage
