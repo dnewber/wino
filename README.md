@@ -1,7 +1,7 @@
 wino
 ====
 
-A simple Python wrapper for the [Wine.com API](https://api.wine.com/).
+A simple Python wrapper for the [Wine.com API](https://api.wine.com/). Response formats include JSON and XML.
 
 
 Installation
@@ -20,7 +20,7 @@ Usage
 >>> import wino as w
 
 # Require necessary api key
->>> c = w.Catalog("insert-your-api-key-here")
+>>> c = w.Catalog("insert-your-api-key-here", "json")
 
 # Search catalog
 >>> c.search("mondavi")
@@ -30,4 +30,9 @@ Usage
 
 ```
 
-More updates in documentation and code to come soon...
+To Do
+-----
+
+- Add appropriate tests (via unittest, perhaps?)
+- Build out Category API portion
+- Update documentation to include use cases, etc.
