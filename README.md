@@ -33,6 +33,5 @@ Usage
 To Do
 -----
 
-- Add appropriate tests (via unittest, perhaps?)
+- Add appropriate tests
 - Build out Category API portion
-- Update documentation to include use cases, etc.
